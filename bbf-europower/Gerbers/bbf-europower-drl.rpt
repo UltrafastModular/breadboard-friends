@@ -1,0 +1,26 @@
+Drill report for C:\Projects\_Forks\breadboard-friends\bbf-europower\bbf-europower.kicad_pcb
+Created on 3/15/2020 10:48:35 AM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  Top                       front
+    L2 :  Bottom                    back
+
+
+Drill file 'bbf-europower-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.80mm  0.031"  (20 holes)
+    T2  0.81mm  0.032"  (8 holes)
+    T3  1.00mm  0.039"  (4 holes)
+    T4  1.02mm  0.040"  (20 holes)
+    T5  1.12mm  0.044"  (4 holes)
+
+    Total plated holes count 56
+
+
+Drill file 'bbf-europower-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
