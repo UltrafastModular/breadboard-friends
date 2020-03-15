@@ -1,0 +1,25 @@
+Drill report for C:\Projects\_Forks\breadboard-friends\bbf-thonkjacks\bbf-thonkjacks.kicad_pcb
+Created on 3/15/2020 11:03:22 AM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  Top                       front
+    L2 :  Bottom                    back
+
+
+Drill file 'bbf-thonkjacks-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.50mm  0.020"  (8 holes)  (with 8 slots)
+    T2  1.02mm  0.040"  (28 holes)
+    T3  1.10mm  0.043"  (4 holes)
+
+    Total plated holes count 40
+
+
+Drill file 'bbf-thonkjacks-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  3.00mm  0.118"  (4 holes)
+
+    Total unplated holes count 4
