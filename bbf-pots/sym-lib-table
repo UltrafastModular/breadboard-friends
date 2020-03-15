@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name bbf-pots_v1-eagle-import)(type Legacy)(uri ${KIPRJMOD}/bbf-pots_v1-eagle-import.lib)(options "")(descr ""))
+)

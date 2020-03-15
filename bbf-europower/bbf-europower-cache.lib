@@ -1,0 +1,180 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# bbf-europower-eagle-import_1N4148DO35-7
+#
+DEF bbf-europower-eagle-import_1N4148DO35-7 D 0 40 Y Y 1 L N
+F0 "D" 100 19 59 H V L BNN
+F1 "bbf-europower-eagle-import_1N4148DO35-7" 100 -91 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -100 0 13 0 1 0 "SpiceOrder 1" Normal 0 C C
+T 0 100 0 13 0 1 0 "SpiceOrder 2" Normal 0 C C
+P 2 1 0 0 -50 -50 50 0 N
+P 2 1 0 0 -50 50 -50 -50 N
+P 2 1 0 0 50 0 -50 50 N
+P 2 1 0 0 50 0 50 -50 N
+P 2 1 0 0 50 50 50 0 N
+X A A -100 0 100 R 0 0 1 0 P
+X C C 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# bbf-europower-eagle-import_CON_HEADER_2X05-PTH
+#
+DEF bbf-europower-eagle-import_CON_HEADER_2X05-PTH J 0 40 Y Y 1 L N
+F0 "J" -50 325 59 H V L BNN
+F1 "bbf-europower-eagle-import_CON_HEADER_2X05-PTH" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 190 210 20 0 1 0 +12v Normal 0 R T
+T 0 190 -190 20 0 1 0 -12V Normal 0 R T
+T 0 190 -90 20 0 1 0 GND Normal 0 R T
+T 0 190 10 20 0 1 0 GND Normal 0 R T
+T 0 190 110 20 0 1 0 GND Normal 0 R T
+P 2 1 0 0 -50 -300 -50 300 N
+P 2 1 0 0 -50 300 350 300 N
+P 2 1 0 0 350 -300 -50 -300 N
+P 2 1 0 0 350 300 350 -300 N
+X 1 1 300 -200 100 L 50 0 1 0 P I
+X 10 10 0 200 100 R 50 0 1 0 P I
+X 2 2 0 -200 100 R 50 0 1 0 P I
+X 3 3 300 -100 100 L 50 0 1 0 P I
+X 4 4 0 -100 100 R 50 0 1 0 P I
+X 5 5 300 0 100 L 50 0 1 0 P I
+X 6 6 0 0 100 R 50 0 1 0 P I
+X 7 7 300 100 100 L 50 0 1 0 P I
+X 8 8 0 100 100 R 50 0 1 0 P I
+X 9 9 300 200 100 L 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
+# bbf-europower-eagle-import_CPOL-EUE2-5
+#
+DEF bbf-europower-eagle-import_CPOL-EUE2-5 C 0 40 Y Y 1 L N
+F0 "C" 45 19 59 H V L BNN
+F1 "bbf-europower-eagle-import_CPOL-EUE2-5" 45 -181 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 900 -23 16 42 0 1 0 + Normal 0 L B
+S -65 -100 65 -65 1 0 0 F
+P 2 1 0 0 -60 -35 60 -35 N
+P 2 1 0 0 -60 0 -60 -35 N
+P 2 1 0 0 -60 0 60 0 N
+P 2 1 0 0 60 -35 60 0 N
+X + + 0 100 100 D 0 0 1 0 P
+X - - 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# bbf-europower-eagle-import_FERRITE-SHORT
+#
+DEF bbf-europower-eagle-import_FERRITE-SHORT L 0 40 Y Y 1 L N
+F0 "L" 100 250 59 H V L BNN
+F1 "bbf-europower-eagle-import_FERRITE-SHORT" 100 -250 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 -200 50 200 1 0 0 F
+P 2 1 0 0 -80 -200 -80 200 N
+X 1 1 0 300 100 D 0 0 1 0 P
+X 2 2 0 -300 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# bbf-europower-eagle-import_GND
+#
+DEF bbf-europower-eagle-import_GND #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "bbf-europower-eagle-import_GND" -100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# bbf-europower-eagle-import_M05X2PTH
+#
+DEF bbf-europower-eagle-import_M05X2PTH JP 0 40 Y Y 1 L N
+F0 "JP" -100 330 59 H V L BNN
+F1 "bbf-europower-eagle-import_M05X2PTH" -100 -400 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -150 300 -150 -300 N
+P 2 1 0 0 -150 300 150 300 N
+P 2 1 0 0 -50 -200 -100 -200 N
+P 2 1 0 0 -50 -100 -100 -100 N
+P 2 1 0 0 -50 0 -100 0 N
+P 2 1 0 0 -50 100 -100 100 N
+P 2 1 0 0 -50 200 -100 200 N
+P 2 1 0 0 50 -200 100 -200 N
+P 2 1 0 0 50 -100 100 -100 N
+P 2 1 0 0 50 0 100 0 N
+P 2 1 0 0 50 100 100 100 N
+P 2 1 0 0 50 200 100 200 N
+P 2 1 0 0 150 -300 -150 -300 N
+P 2 1 0 0 150 -300 150 300 N
+X 1 1 -300 200 200 R 50 0 1 0 P
+X 10 10 300 -200 200 L 50 0 1 0 P
+X 2 2 300 200 200 L 50 0 1 0 P
+X 3 3 -300 100 200 R 50 0 1 0 P
+X 4 4 300 100 200 L 50 0 1 0 P
+X 5 5 -300 0 200 R 50 0 1 0 P
+X 6 6 300 0 200 L 50 0 1 0 P
+X 7 7 -300 -100 200 R 50 0 1 0 P
+X 8 8 300 -100 200 L 50 0 1 0 P
+X 9 9 -300 -200 200 R 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# bbf-europower-eagle-import_PTC_FUSEPOLY_FUSE
+#
+DEF bbf-europower-eagle-import_PTC_FUSEPOLY_FUSE F 0 40 Y Y 1 L N
+F0 "F" 0 0 50 H I C CNN
+F1 "bbf-europower-eagle-import_PTC_FUSEPOLY_FUSE" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 -30 100 -30 N
+P 2 1 0 0 -100 20 -100 -30 N
+P 2 1 0 0 100 -30 100 20 N
+P 2 1 0 0 100 20 -100 20 N
+X P$1 1 -200 0 200 R 0 0 1 0 B
+X P$2 2 200 0 200 L 0 0 1 0 B
+ENDDRAW
+ENDDEF
+#
+# bbf-europower-eagle-import_VCC
+#
+DEF bbf-europower-eagle-import_VCC #P+ 0 40 Y Y 1 L P
+F0 "#P+" 0 0 50 H I C CNN
+F1 "bbf-europower-eagle-import_VCC" -40 140 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 100 -30 50 N
+P 2 1 0 0 30 50 0 100 N
+X VCC 1 0 0 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# bbf-europower-eagle-import_VEE
+#
+DEF bbf-europower-eagle-import_VEE #SUPPLY 0 40 Y Y 1 L P
+F0 "#SUPPLY" 0 0 50 H I C CNN
+F1 "bbf-europower-eagle-import_VEE" -75 125 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 50 50 1 0 10 N
+X VEE 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+#End Library

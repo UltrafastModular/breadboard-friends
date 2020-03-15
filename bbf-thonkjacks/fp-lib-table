@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name bbf-thonkjacks)(type KiCad)(uri "$(KIPRJMOD)/bbf-thonkjacks.pretty")(options "")(descr ""))
+)

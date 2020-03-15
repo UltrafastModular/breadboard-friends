@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name bbf-supply_v1)(type KiCad)(uri "$(KIPRJMOD)/bbf-supply_v1.pretty")(options "")(descr ""))
+)
