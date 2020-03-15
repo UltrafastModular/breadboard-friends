@@ -75547,36 +75547,34 @@ bbf-audio_out_v1
 0204_7
 <b>RESISTOR</b><p>
 type 0204, grid 7.5 mm
-
+0
 0
 2
 2
 bbf-audio_out_v1
 AVR_ICSP
 <b>PIN HEADER</b>
-
+0
 0
 10
 10
 bbf-audio_out_v1
 C025-025X050
 <b>CAPACITOR</b><p>
-grid 2.5 mm, outline 2.5 x 5 mm
-
+0
+0
 0
 2
 2
 bbf-audio_out_v1
 DIL08
-<b>Dual In Line Package</b>
-
+0
+0
 0
 8
 8
 bbf-audio_out_v1
 NRJ4HF
-
-
 0
-4
-4
+0
+0

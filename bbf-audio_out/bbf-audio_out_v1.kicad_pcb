@@ -64,7 +64,7 @@
     (pcbplotparams
       (layerselection 0x312fc_ffffffff)
       (usegerberextensions false)
-      (usegerberattributes true)
+      (usegerberattributes false)
       (usegerberadvancedattributes true)
       (creategerberjobfile true)
       (excludeedgelayer true)
@@ -1888,7 +1888,7 @@
   (segment (start 149.7711 113.2536) (end 150.4061 113.8886) (width 0.3048) (layer Top) (net 9) (tstamp 6AEBAA0))
   (segment (start 150.4061 113.8886) (end 151.6761 113.8886) (width 0.3048) (layer Top) (net 9) (tstamp 6AEBB40))
 
-  (zone (net 1) (net_name GND) (layer Bottom) (tstamp 5E6E6298) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer Bottom) (tstamp 5E6EB988) (hatch edge 0.508)
     (priority 6)
     (connect_pads (clearance 0.000001))
     (min_thickness 0.127)
