@@ -1,0 +1,23 @@
+Drill report for C:\Projects\_Forks\breadboard-friends\bbf-eurojacks\bbf-eurojacks_v1.kicad_pcb
+Created on 3/15/2020 10:43:53 AM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  Top                       front
+    L2 :  Bottom                    back
+
+
+Drill file 'bbf-eurojacks_v1-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.80mm  0.031"  (12 holes)  (with 12 slots)
+    T2  1.02mm  0.040"  (28 holes)
+
+    Total plated holes count 40
+
+
+Drill file 'bbf-eurojacks_v1-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
