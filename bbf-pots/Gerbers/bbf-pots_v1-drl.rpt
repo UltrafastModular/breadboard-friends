@@ -1,0 +1,24 @@
+Drill report for C:/Projects/_Forks/breadboard-friends/bbf-pots/bbf-pots_v1.kicad_pcb
+Created on 3/15/2020 10:51:05 AM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  Top                       front
+    L2 :  Bottom                    back
+
+
+Drill file 'bbf-pots_v1-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  1.00mm  0.039"  (6 holes)
+    T2  1.02mm  0.040"  (30 holes)
+    T3  2.00mm  0.079"  (4 holes)
+
+    Total plated holes count 40
+
+
+Drill file 'bbf-pots_v1-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
