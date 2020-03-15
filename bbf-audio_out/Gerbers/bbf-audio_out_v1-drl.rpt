@@ -1,0 +1,26 @@
+Drill report for C:\Projects\_Forks\breadboard-friends\bbf-audio_out\bbf-audio_out_v1.kicad_pcb
+Created on 3/15/2020 10:13:41 AM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  Top                       front
+    L2 :  Bottom                    back
+
+
+Drill file 'bbf-audio_out_v1-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.81mm  0.032"  (18 holes)
+    T2  1.02mm  0.040"  (25 holes)
+    T3  1.40mm  0.055"  (1 hole)
+    T4  1.60mm  0.063"  (3 holes)
+
+    Total plated holes count 47
+
+
+Drill file 'bbf-audio_out_v1-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  2.00mm  0.079"  (2 holes)
+
+    Total unplated holes count 2
