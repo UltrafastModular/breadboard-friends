@@ -1,0 +1,380 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 5F2FC0CD
+P 3500 2800
+F 0 "J2" H 3550 3217 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 3550 3126 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 3500 2800 50  0001 C CNN
+F 3 "~" H 3500 2800 50  0001 C CNN
+	1    3500 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U1
+U 1 1 5F300328
+P 7350 2500
+F 0 "U1" H 7350 2867 50  0000 C CNN
+F 1 "TL072" H 7350 2776 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 7350 2500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7350 2500 50  0001 C CNN
+	1    7350 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U1
+U 2 1 5F303DB0
+P 7350 3300
+F 0 "U1" H 7350 3667 50  0000 C CNN
+F 1 "TL072" H 7350 3576 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 7350 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7350 3300 50  0001 C CNN
+	2    7350 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 2700 3000
+Wire Wire Line
+	3300 3000 3400 3000
+Connection ~ 3400 3000
+Wire Wire Line
+	3400 3000 3500 3000
+Connection ~ 3500 3000
+Wire Wire Line
+	3500 3000 3600 3000
+Connection ~ 3600 3000
+Wire Wire Line
+	3600 3000 3700 3000
+Wire Wire Line
+	3300 2500 3400 2500
+Connection ~ 3400 2500
+Wire Wire Line
+	3400 2500 3500 2500
+Connection ~ 3500 2500
+Wire Wire Line
+	3500 2500 3600 2500
+Connection ~ 3600 2500
+Wire Wire Line
+	3600 2500 3700 2500
+Wire Wire Line
+	7050 2600 7050 2750
+Wire Wire Line
+	7050 2750 7650 2750
+Wire Wire Line
+	7650 2750 7650 2500
+$Comp
+L Connector:Conn_01x06_Male J3
+U 1 1 5F345CC5
+P 6050 2600
+F 0 "J3" H 6158 2981 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 6158 2890 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6050 2600 50  0001 C CNN
+F 3 "~" H 6050 2600 50  0001 C CNN
+	1    6050 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2300 3500 2500
+$Comp
+L power:+12V #PWR0102
+U 1 1 5F31EC70
+P 3500 2300
+F 0 "#PWR0102" H 3500 2150 50  0001 C CNN
+F 1 "+12V" H 3515 2473 50  0000 C CNN
+F 2 "" H 3500 2300 50  0001 C CNN
+F 3 "" H 3500 2300 50  0001 C CNN
+	1    3500 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 3200 2700 3000
+$Comp
+L power:-12V #PWR0103
+U 1 1 5F320073
+P 2700 3200
+F 0 "#PWR0103" H 2700 3300 50  0001 C CNN
+F 1 "-12V" H 2715 3373 50  0000 C CNN
+F 2 "" H 2700 3200 50  0001 C CNN
+F 3 "" H 2700 3200 50  0001 C CNN
+	1    2700 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:-12V #PWR0104
+U 1 1 5F3571AB
+P 4800 3050
+F 0 "#PWR0104" H 4800 3150 50  0001 C CNN
+F 1 "-12V" H 4815 3223 50  0000 C CNN
+F 2 "" H 4800 3050 50  0001 C CNN
+F 3 "" H 4800 3050 50  0001 C CNN
+	1    4800 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR0105
+U 1 1 5F357602
+P 4800 2450
+F 0 "#PWR0105" H 4800 2300 50  0001 C CNN
+F 1 "+12V" H 4815 2623 50  0000 C CNN
+F 2 "" H 4800 2450 50  0001 C CNN
+F 3 "" H 4800 2450 50  0001 C CNN
+	1    4800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U1
+U 3 1 5F3067F9
+P 4500 2750
+F 0 "U1" H 4458 2796 50  0000 L CNN
+F 1 "TL072" H 4458 2705 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 4500 2750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4500 2750 50  0001 C CNN
+	3    4500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5F35C942
+P 4800 2750
+F 0 "#PWR0106" H 4800 2500 50  0001 C CNN
+F 1 "GND" H 4805 2577 50  0000 C CNN
+F 2 "" H 4800 2750 50  0001 C CNN
+F 3 "" H 4800 2750 50  0001 C CNN
+	1    4800 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2450 4800 2450
+Wire Wire Line
+	4400 3050 4800 3050
+$Comp
+L Device:C_Small C2
+U 1 1 5F35FEE4
+P 5000 2900
+F 0 "C2" H 5092 2946 50  0000 L CNN
+F 1 "C_Small" H 5092 2855 50  0001 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 5000 2900 50  0001 C CNN
+F 3 "~" H 5000 2900 50  0001 C CNN
+	1    5000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5F360D2D
+P 5000 2600
+F 0 "C1" H 5092 2646 50  0000 L CNN
+F 1 "C_Small" H 5092 2555 50  0001 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 5000 2600 50  0001 C CNN
+F 3 "~" H 5000 2600 50  0001 C CNN
+	1    5000 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3050 5000 3050
+Wire Wire Line
+	5000 3050 5000 3000
+Connection ~ 4800 3050
+Wire Wire Line
+	4800 2750 5000 2750
+Wire Wire Line
+	5000 2750 5000 2800
+Wire Wire Line
+	5000 2700 5000 2750
+Connection ~ 5000 2750
+Wire Wire Line
+	4800 2450 5000 2450
+Wire Wire Line
+	5000 2450 5000 2500
+Connection ~ 4800 2450
+Wire Wire Line
+	6250 2500 6550 2500
+Wire Wire Line
+	6550 2500 6550 2850
+Wire Wire Line
+	7050 3400 7050 3550
+Wire Wire Line
+	7050 3550 7650 3550
+Wire Wire Line
+	7650 3550 7650 3300
+Wire Wire Line
+	6550 3300 6550 3650
+Wire Wire Line
+	6450 3200 6450 2700
+Wire Wire Line
+	6450 2700 6250 2700
+Wire Wire Line
+	6350 3300 6350 2800
+Wire Wire Line
+	6350 2800 6250 2800
+Wire Wire Line
+	6350 3300 6550 3300
+Wire Wire Line
+	6250 3400 6250 2900
+Connection ~ 2800 2500
+Wire Wire Line
+	2800 2500 2900 2500
+Wire Wire Line
+	2700 2500 2800 2500
+Connection ~ 2700 2500
+Connection ~ 2600 2500
+Wire Wire Line
+	2600 2500 2700 2500
+Wire Wire Line
+	2500 2500 2600 2500
+Connection ~ 2800 3000
+Wire Wire Line
+	2800 3000 2900 3000
+Wire Wire Line
+	2700 3000 2800 3000
+Connection ~ 2600 3000
+Wire Wire Line
+	2600 3000 2700 3000
+Wire Wire Line
+	2500 3000 2600 3000
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J1
+U 1 1 5F2FA868
+P 2700 2800
+F 0 "J1" H 2750 3217 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 2750 3126 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2700 2800 50  0001 C CNN
+F 3 "~" H 2700 2800 50  0001 C CNN
+	1    2700 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5F399F3C
+P 2700 2300
+F 0 "#PWR0108" H 2700 2050 50  0001 C CNN
+F 1 "GND" H 2705 2127 50  0000 C CNN
+F 2 "" H 2700 2300 50  0001 C CNN
+F 3 "" H 2700 2300 50  0001 C CNN
+	1    2700 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 2300 2700 2500
+$Comp
+L power:GND #PWR0109
+U 1 1 5F39BD27
+P 3500 3200
+F 0 "#PWR0109" H 3500 2950 50  0001 C CNN
+F 1 "GND" H 3505 3027 50  0000 C CNN
+F 2 "" H 3500 3200 50  0001 C CNN
+F 3 "" H 3500 3200 50  0001 C CNN
+	1    3500 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3000 3500 3200
+Wire Wire Line
+	8350 3650 8350 3300
+Wire Wire Line
+	8500 3200 8200 3200
+Wire Wire Line
+	8350 3300 8200 3300
+$Comp
+L power:GND #PWR0107
+U 1 1 5F389097
+P 8500 3200
+F 0 "#PWR0107" H 8500 2950 50  0001 C CNN
+F 1 "GND" H 8505 3027 50  0000 C CNN
+F 2 "" H 8500 3200 50  0001 C CNN
+F 3 "" H 8500 3200 50  0001 C CNN
+	1    8500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J5
+U 1 1 5F38908E
+P 8000 3300
+F 0 "J5" H 8032 3625 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 8032 3534 50  0000 C CNN
+F 2 "davidstalnaker:Thonkiconn_Tight" H 8000 3300 50  0001 C CNN
+F 3 "~" H 8000 3300 50  0001 C CNN
+	1    8000 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 2850 8350 2500
+Wire Wire Line
+	8500 2400 8200 2400
+Wire Wire Line
+	8350 2500 8200 2500
+$Comp
+L power:GND #PWR0101
+U 1 1 5F343570
+P 8500 2400
+F 0 "#PWR0101" H 8500 2150 50  0001 C CNN
+F 1 "GND" H 8505 2227 50  0000 C CNN
+F 2 "" H 8500 2400 50  0001 C CNN
+F 3 "" H 8500 2400 50  0001 C CNN
+	1    8500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J4
+U 1 1 5F30AD26
+P 8000 2500
+F 0 "J4" H 8032 2825 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 8032 2734 50  0000 C CNN
+F 2 "davidstalnaker:Thonkiconn_Tight" H 8000 2500 50  0001 C CNN
+F 3 "~" H 8000 2500 50  0001 C CNN
+	1    8000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5F31E67B
+P 6800 2600
+F 0 "R1" V 6696 2600 50  0000 C CNN
+F 1 "R_Small" V 6695 2600 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 6800 2600 50  0001 C CNN
+F 3 "~" H 6800 2600 50  0001 C CNN
+	1    6800 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6250 2400 7050 2400
+$Comp
+L Device:R_Small R2
+U 1 1 5F32ACF5
+P 6800 3400
+F 0 "R2" V 6696 3400 50  0000 C CNN
+F 1 "R_Small" V 6695 3400 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 6800 3400 50  0001 C CNN
+F 3 "~" H 6800 3400 50  0001 C CNN
+	1    6800 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 2850 8350 2850
+Wire Wire Line
+	6900 2600 7050 2600
+Connection ~ 7050 2600
+Wire Wire Line
+	6700 2600 6250 2600
+Wire Wire Line
+	6250 3400 6700 3400
+Wire Wire Line
+	6900 3400 7050 3400
+Connection ~ 7050 3400
+Wire Wire Line
+	6550 3650 8350 3650
+Wire Wire Line
+	6450 3200 7050 3200
+$EndSCHEMATC
