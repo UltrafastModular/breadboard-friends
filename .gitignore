@@ -5,6 +5,14 @@
 *.s#?
 *.b#?
 
+#KiCAD backups
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+_saved_*
+_autosave-*
+
 # Gerber files
 *.CUT
 *.GBL
